@@ -1,5 +1,6 @@
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
+
 from commons import init_model
 
 model = init_model()

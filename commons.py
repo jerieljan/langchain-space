@@ -6,8 +6,10 @@ EMBEDDING_NAME = "text-embedding-3-small"
 BASE_URL = "https://ainovate.novare.com.hk/"
 load_dotenv()
 
+
 def init_model() -> ChatOpenAI:
     return ChatOpenAI(model=MODEL_NAME, base_url=BASE_URL)
+
 
 def init_embedding() -> OpenAIEmbeddings:
     return OpenAIEmbeddings(model=EMBEDDING_NAME, base_url=BASE_URL)

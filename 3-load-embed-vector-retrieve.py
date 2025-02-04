@@ -1,7 +1,6 @@
 from langchain_community.document_loaders import PyPDFDirectoryLoader
 from langchain_community.vectorstores import FAISS
 from langchain_core.documents import Document
-from langchain_core.vectorstores import VectorStoreRetriever
 from langchain_text_splitters import TokenTextSplitter
 
 from commons import init_model, init_embedding
@@ -21,5 +20,3 @@ results: list[Document] = retriever.invoke("Evaluation Prompts")
 
 for document in results:
     print(document.page_content)
-
-
