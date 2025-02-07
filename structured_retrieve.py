@@ -52,13 +52,13 @@ def run_structured_qa(question):
 
 
 # Example usage
-query = "Which evaluation prompts were used for Deepseek-R1?"
-result = run_structured_qa(query)
-
-print(f"Query: {query}")
-print(f"Summary: {result.summary}\n")
-print("Key Points: ")
-for kp in result.key_points:
-    print(f"- {kp}")
-print("----------")
-print(f"Consider asking: {result.follow_up_question}")
+# query = "Which evaluation prompts were used for Deepseek-R1?"
+# result = run_structured_qa(query)
+#
+# print(f"Query: {query}")
+# print(f"Summary: {result.summary}\n")
+# print("Key Points: ")
+# for kp in result.key_points:
+#     print(f"- {kp}")
+# print("----------")
+# print(f"Consider asking: {result.follow_up_question}")
