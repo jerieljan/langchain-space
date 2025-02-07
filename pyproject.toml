@@ -8,6 +8,7 @@ dependencies = [
     "gradio>=5.14.0",
     "langchain-community>=0.3.16",
     "langchain-openai>=0.3.3",
+    "langgraph>=0.2.70",
     "pydantic>=2.10.6",
     "pypdf>=5.2.0",
     "python-dotenv>=1.0.1",
